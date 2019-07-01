@@ -3,10 +3,22 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { MenuComponent } from './menu/menu.component';
+import { FooterComponent } from './footer/footer.component';
+import { SettingComponent } from './setting/setting.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { ClientListComponent } from './clients/client-list/client-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    MenuComponent,
+    FooterComponent,
+    SettingComponent,
+    DashboardComponent,
+    ClientListComponent
   ],
   imports: [
     BrowserModule,
